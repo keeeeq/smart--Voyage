@@ -1,0 +1,35 @@
+# ============================
+# SmartVoyage 核心依赖
+# ============================
+
+# 数据库
+mysql-connector-python>=9.0.0
+
+# LLM 框架
+langchain>=0.3.0
+langchain-openai>=0.3.0
+langchain-core>=0.3.0
+
+# MCP 和 A2A 协议
+mcp>=1.0.0
+python-a2a>=0.5.0
+langchain-mcp-adapters>=0.1.0
+
+# Web 框架
+fastapi>=0.100.0
+uvicorn>=0.30.0
+streamlit>=1.30.0
+
+# HTTP 请求
+requests>=2.30.0
+httpx>=0.25.0
+
+# 定时任务
+schedule>=1.2.0
+
+# 工具库
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+colorlog>=6.0.0
+pytz>=2024.0
